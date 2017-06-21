@@ -12,7 +12,7 @@
 
 If software is required to perform science, it stands to reason that errors in your software mean errors in your science.
 
-## Possible Solution?
+## Possible Solution?
 
 Scientific code needs to be peer reviewed, and ideally open source.
 
