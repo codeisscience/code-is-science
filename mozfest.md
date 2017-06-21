@@ -15,3 +15,5 @@ Topics:
 - how can we change that?
 
 Once everyone has had a chance to jot down ideas, go around and discuss them as a community / group like notes together.
+
+Wrap up discussing conclusions and next steps. Grab names if anyone is interested in being involved.
