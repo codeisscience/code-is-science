@@ -24,4 +24,4 @@ Jiménez RC, Kuzak M, Alhamdoosh M et al. Four simple recommendations to encoura
 
 I'd like to try to take this further, collaborating with efforts like the movement above and [Software Carpentry](https://software-carpentry.org/) / [Data Carpentry](http://www.datacarpentry.org/).
 
-One idea that was suggested to me was to submit [a proposal for MozFest](https://mozillafestival.org/proposals). This sounds like a great way to gather feedback from open source enthusiasts about how to help effect appropriate culture shift.
+One idea that was suggested to me was to submit [a proposal for MozFest](https://mozillafestival.org/proposals). This sounds like a great way to gather feedback from open source enthusiasts about how to help effect appropriate culture shift. [More details on the proposal here](mozfest.md)
