@@ -1,0 +1,1 @@
+All ideas are welcome, including requests to participate as a workshop facilitator. To contribute, please [tweet me (Yo Yehudi)](http://www.twitter.com/yoyehudi), email me (yochannah@gmail.com) or [open an issue on the github repo](https://github.com/yochannah/code-is-science/issues). 
