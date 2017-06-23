@@ -2,7 +2,7 @@
 
 Basic format: 60 or 90 minute session
 
-**Intro:** - The session will begin with slides explaining [the premise of this project](readme.md) (TL;DR premise: Science needs open source, peer-reviewed code to be valid) with awareness that the attendees may or may not be familiar with academic publishing models.
+**Intro:** - The session will begin with slides explaining [the premise of this project](README.md) (TL;DR premise: Science needs open source, peer-reviewed code to be valid) with awareness that the attendees may or may not be familiar with academic publishing models.
 
 **Discussion:** A workshop session to brainstorm possible ways to fix this. Suggest whiteboard or A1 poster sheets with sticky notes. Allows people to jot down ideas without feeling too self conscious.
 
