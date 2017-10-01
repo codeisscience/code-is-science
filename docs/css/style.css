@@ -1,0 +1,45 @@
+html {
+  min-height: 100vh;
+}
+body {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: #03A9F4;
+  padding: 1em;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+header .strapline {
+  font-style: oblique;
+}
+main {
+  flex-grow: 1;
+  display: flex;
+  padding: 1em;
+}
+footer {
+  background-color: #01579B;
+  color: #fff;
+  padding: 1em;
+}
+footer a {
+  background-color: #01579B;
+  color: #eee;
+}
+aside {
+  padding: 1em;
+  background-color: #eee;
+  border-radius: 2px;
+  min-width: 20vw;
+}
