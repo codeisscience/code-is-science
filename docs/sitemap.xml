@@ -3,17 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.codeisscience.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.codeisscience.com/</loc>
   </url>
   
   <url>
-    <loc>http://www.codeisscience.com/tags/</loc>
-    <priority>0</priority>
+    <loc>http://www.codeisscience.com/contact/</loc>
   </url>
   
 </urlset>
