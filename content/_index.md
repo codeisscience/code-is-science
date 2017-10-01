@@ -1,3 +1,7 @@
+{
+  "title" : "Code Is Science : Welcome!"
+}
+
 # Code is science!
 
 Working with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and [FAIR](https://www.nature.com/articles/sdata201618).
