@@ -1,5 +1,7 @@
 # Code is science!
 
+Working with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and [FAIR](https://www.nature.com/articles/sdata201618).
+
 ## Premise
 
 **Science is often computing:** Much of modern science involves code these days, in large part due to the amount of data available - it would be almost impossible to analyse without computational assistance.
@@ -12,15 +14,13 @@
 
 If software is required to perform science, it stands to reason that errors in your software mean errors in your science.
 
-## Possible Solution?
+## Possible Solution?
 
 Scientific code needs to be peer reviewed, and ideally open source.
 
 That's easier said than done. Getting there requires awareness, culture shift, and adherence to best practices.
 
-This article contains some highly relevant ideas, with point 3 focusing on the need for open source:
-
-Jiménez RC, Kuzak M, Alhamdoosh M et al. Four simple recommendations to encourage best practices in research software [version 1; referees: awaiting peer review]. F1000Research 2017, 6:876 (doi: 10.12688/f1000research.11407.1)
+There are papers and articles highlighting the issue in [further-reading.md](further-reading.md)
 
 I'd like to try to take this further, collaborating with efforts like the movement above and [Software Carpentry](https://software-carpentry.org/) / [Data Carpentry](http://www.datacarpentry.org/).
 
