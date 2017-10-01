@@ -6,9 +6,20 @@
     <description>Recent content in Code Is Science : Welcome! on Code Is Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Sun, 01 Oct 2017 21:46:54 +0100</lastBuildDate>
     
 	<atom:link href="http://www.codeisscience.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mozfest Is Coming</title>
+      <link>http://www.codeisscience.com/posts/mozfest-is-coming/</link>
+      <pubDate>Sun, 01 Oct 2017 21:46:54 +0100</pubDate>
+      
+      <guid>http://www.codeisscience.com/posts/mozfest-is-coming/</guid>
+      <description>Want to help make scientific code better and more open? We&amp;rsquo;re really excited to announce that we&amp;rsquo;ll be running an interactive session at MozFest 2017 in London at the end of October. The session might be suitable for you if you meet any of these criteria:
+ you have an interest in (or write) open source code you&amp;rsquo;d like to learn more about the academic publishing model you write software for research.</description>
+    </item>
     
     <item>
       <title>Contact us</title>
