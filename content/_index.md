@@ -4,8 +4,6 @@
 
 # Code is science!
 
-Working with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and [FAIR](https://www.nature.com/articles/sdata201618).
-
 ## Premise
 
 **Science is often computing:** Much of modern science involves code these days, in large part due to the amount of data available - it would be almost impossible to analyse without computational assistance.
