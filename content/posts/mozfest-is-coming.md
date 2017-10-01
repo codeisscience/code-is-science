@@ -1,7 +1,6 @@
 ---
 title: "Mozfest Is Coming"
 date: 2017-10-01T21:46:54+01:00
-draft: true
 ---
 
 ## Want to help make scientific code better and more open?
@@ -24,5 +23,5 @@ The outputs of this session will be written up and added to this site. Intereste
 
 ### If you can't attend the session, we'd still love your input!
 
-If you have feelings on the subject, [drop us a line](https://github.com/MozillaFoundation/mozfest-program-2017/issues/71) or add your thoughts to the [MozFest discussion on GitHub](https://github.com/MozillaFoundation/mozfest-program-2017/issues/71) 
+If you have feelings on the subject, [drop us a line](https://github.com/MozillaFoundation/mozfest-program-2017/issues/71) or add your thoughts to the [MozFest discussion on GitHub](https://github.com/MozillaFoundation/mozfest-program-2017/issues/71). 
 
