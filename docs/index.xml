@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Is Science</title>
+    <link>http://www.codeisscience.com/</link>
+    <description>Recent content on Code Is Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="http://www.codeisscience.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.codeisscience.com/posts/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.codeisscience.com/posts/welcome/</guid>
+      <description>Code is science! Working with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and FAIR.
+Premise Science is often computing: Much of modern science involves code these days, in large part due to the amount of data available - it would be almost impossible to analyse without computational assistance.
+Science requires peer review: One of the basic prerequisites for any published scientific results is that it be reviewed by peers, to ensure the research and conclusions are valid.</description>
+    </item>
+    
+  </channel>
+</rss>
