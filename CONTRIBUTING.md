@@ -5,7 +5,8 @@ Feel free to do one or many of the following:
 - [Pick up an issue on GitHub](https://github.com/yochannah/code-is-science/issues). Ideally start by leaving a comment saying you're working on it so someone else doesn't pick it up as well! 
 
 ### You don't have to be a coder to participate. 
-Design, documentation, and community outreach are important parts of any project.
+Design, documentation, and community outreach are important parts of any project.  
+
 [Coding tasks](https://github.com/yochannah/code-is-science/issues?q=is%3Aissue+is%3Aopen+label%3Acode-task)  
 [Design tasks](https://github.com/yochannah/code-is-science/labels/design%20task)
 
