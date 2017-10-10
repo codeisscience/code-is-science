@@ -3,6 +3,7 @@ All ideas are welcome, providing they meet [code of conduct](CODE_OF_CONDUCT.md)
 Feel free to do one or many of the following: 
 - [Contact us](http://www.codeisscience.com/contact/) for further discussion about an idea or problem (email, tweet, github issue - all good!)
 - [Pick up an issue on GitHub](https://github.com/yochannah/code-is-science/issues). Ideally start by leaving a comment saying you're working on it so someone else doesn't pick it up as well! 
+- Do you wish more code was open source? Have you wished in the past that a DB of open source journals existed? Share your story: https://goo.gl/forms/k3IBxlDgi97ZTJuf2 
 
 ### You don't have to be a coder to participate. 
 Design, documentation, and community outreach are important parts of any project.  
