@@ -21,3 +21,9 @@ If software is required to perform science, it stands to reason that errors in y
 Scientific code needs to be peer reviewed, and ideally open source.
 
 That's easier said than done. Getting there requires awareness, culture shift, and adherence to best practices.
+
+### Looking to Contribute? 
+
+- Do you wish more code was open source? Have you wished in the past that a DB of open source journals existed? [Share your story](https://goo.gl/forms/k3IBxlDgi97ZTJuf2)
+- Add more journals to our [list]( https://docs.google.com/spreadsheets/d/1oY5ak7VJa-qwJJeWA3829S-1akZaYtHuWPYpChBdW2o/edit#gid=1946180293) Right now it's a google form, but hopefully we'll have the full site up and running soon!
+- pick up a technical task on GitHub: [https://github.com/yochannah/code-is-science](https://github.com/yochannah/code-is-science)
