@@ -15,8 +15,14 @@ header {
   border-bottom: solid 3px #03A9F4;
   padding: 1em;
   max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+header > * {
+  margin: 1em;
 }
 header h1 {
   font-size: 2em;
@@ -27,9 +33,22 @@ header a {
   color: #111;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
+header .header-text {
+  max-width: 50vw;
+}
 header .strapline {
   font-style: italic;
   color: #333;
+  max-width: 50vw;
+}
+@media (max-width: 700px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+  }
+  header .strapline {
+    width: auto;
+  }
 }
 main {
   flex-grow: 1;
