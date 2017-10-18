@@ -1,0 +1,23 @@
+[main] {
+  /* Sizing */
+  max-width: 1000px;
+  width: 90%;
+
+  /* Position */
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+
+  /* Flex properties */
+  display: flex;
+  flex-direction: row;
+}
+
+[main] > [card]:nth-child(1) {
+  width: 23%;
+  padding-top: 10px;
+}
+
+[main] > [card]:nth-child(2) {
+  width: 100%;
+}

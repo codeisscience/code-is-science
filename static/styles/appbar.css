@@ -1,0 +1,57 @@
+div[app-bar] {
+  /* Sizing */
+  height: 72px;
+  width: 100%;
+
+  /* Position */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  /* Flex properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Material shadow */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div[app-bar] > div:first-child {
+  /* Sizing */
+  width: 100px;
+  height: 100px;
+
+  /* Position */
+  position: absolute;
+  left: 16px;
+  top: 16px;
+
+  /* Material card */
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div[app-bar] > input {
+  /* Sizing */
+  width: 50%;
+  height: 10px;
+  padding: 16px;
+
+  /* Border properties */
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  /* Color & typography */
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+}
+
+/* Placeholder text style */
+div[app-bar] > input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.7); }
+div[app-bar] > input::-moz-placeholder { color: rgba(255, 255, 255, 0.7); }
+div[app-bar] > input:-ms-input-placeholder { color: rgba(255, 255, 255, 0.7); }
+div[app-bar] > input:-moz-placeholder { color: rgba(255, 255, 255, 0.7); }
