@@ -1,10 +1,8 @@
-[journal] {
-  /* Sizing */
-  width: 100%;
+footer {
   height: 60px;
-  margin-bottom: 1px;
-
-  /* Flex properties */
+  width: 100%;
+  position: relative;
+  top: 160px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
