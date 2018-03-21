@@ -1,0 +1,242 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body
+{
+    font-family: arial, sans-serif;
+    background-color: #fff;
+}
+
+/*Main*/
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  overflow: auto;
+}
+
+.side-menu {
+  float: left;
+  width: 25%;
+  padding-right: 10px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  border: 2px solid #f1f1f1;
+}
+.item {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+  list-style-type: none;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+/*Media Queries*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .side-menu, .main{
+    width: 100%;
+  }
+}
+
+/*Main Container*/
+.main {
+  display: -webkit-flex;
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  border: 2px solid #f1f1f1;
+}
+
+.flex-item {
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.journal {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.discipline {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.OSS {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 4;
+}
+
+.list a:link {
+  color: #3597D3;
+}
+.list a:hover {
+  color: #E7403C;
+}
+
+
+/*Navigation*/
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #069;
+}
+
+.nav-bar li {
+    float: left;
+    padding-top: 20px;
+    right: 0;
+    left: auto;
+    list-style-type: none;
+}
+
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+    border-bottom: 3px solid #E7403C;
+    color: #E7403C;
+}
+
+.active {
+    border-bottom: 3px solid #E7403C;
+}
+
+/*Media Queries*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .journal {
+      -webkit-flex: 3;
+      flex: 3;
+  }
+
+  .discipline {
+      -webkit-flex: 3;
+      flex: 3;
+  }
+
+  .OSS {
+      -webkit-flex: 2;
+      flex: 2;
+  }
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .side-menu, .main{
+    width: 100%;
+  }
+
+}
+
+#main {
+  /* Sizing */
+  max-width: 1200px;
+  width: 90%;
+
+  /* Position */
+  position: relative;
+  margin: 120px auto 20px;
+
+  /* Flex properties */
+  display: flex;
+  flex-direction: row;
+}
+
+/*Logo*/
+.logo {
+  float: left;
+  margin: 10px;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+nav {
+  /* Sizing */
+  height: auto;
+  width: 100%;
+
+  /* Position */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  /* Flex properties */
+  display: flex;
+  flex-direction: column;
+
+  /* Material shadow */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.search {
+  margin-top: 23px;
+}
+
+input[type=text] {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #3597D3;
+    border-radius: 4px;
+    background-image: url('../images/searchicon.png');
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-left: 2em;
+}
+
+input[type=button]  {
+    border-radius: 4px;
+    padding: 14px 40px;
+    background: #E7403C;
+    border: 2px solid #E7403C;
+    text-align: center;
+    color: #fff;
+}
+
+input[type=button]:hover {
+  background: #8C9EFF;
+  border: 2px solid #8C9EFF;
+}
+
+h2, h4 {
+  color: #4C4C4D;
+}
+
+h3 {
+  color: #E7403C;
+}
+
+

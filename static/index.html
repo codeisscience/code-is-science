@@ -1,68 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <!-- Meta Tags -->
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- CSS Imports -->
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/colors.css">
-  <link rel="stylesheet" href="styles/appbar.css">
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/card.css">
-  <link rel="stylesheet" href="styles/checkbox.css">
-  <link rel="stylesheet" href="styles/journal.css">
-  <link rel="stylesheet" href="styles/footer.css">
-
-  <!-- Document Name -->
-  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Code Is Science</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- App Bar -->
-  <div app-bar M500>
-    <div hide-on-mobile><img src="logos/model-1/code-is-science-model-1-no-text.svg" alt="Code is Science!" width="100" height="100"></div>
-    <input type="text" placeholder="Search...">
-  </div>
+  <nav>
+    <ul class="nav-bar">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="Code is Science" height="60"></a>
+       <li><a href="#" class="active">Open Source Journals</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">About</a></li>
+       <input type="text" name="" value="" placeholder="Search" class="search">
+       <!-- <input type="button" name="" value="Search" placeholder="Search" class="search"> -->
+     </ul>
+  </nav>
+  <div id="main">
+    <div class="side-menu">
+    <h2 style="margin-left: 20px;">Journals</h2>
+          <ul>
+          <h3>Filter by:</h3>
+            <li class="item"><input type="checkbox" name="" value=""> Open source</li>
+            <li class="item"><input type="checkbox" name="" value=""> Closed</li>
+            <li class="item"><input type="checkbox" name="" value=""> Unknown</li>
+          </ul>
 
-  <!-- Main content -->
-  <div main>
-    <div card hide-on-mobile>
-      <div filter><label></label><input type="checkbox" name="ch1" id="ch1"> filter 1</label></div>
-      <div filter><label></label><input type="checkbox" name="ch2" id="ch2"> filter 2</label></div>
-      <div filter><label></label><input type="checkbox" name="ch3" id="ch3"> filter 3</label></div>
-      <div filter><label></label><input type="checkbox" name="ch4" id="ch4"> filter 4</label></div>
-      <div filter><label></label><input type="checkbox" name="ch5" id="ch5"> filter 5</label></div>
-      <div filter><label></label><input type="checkbox" name="ch6" id="ch6"> filter 6</label></div>
-      <div filter><label></label><input type="checkbox" name="ch7" id="ch7"> filter 7</label></div>
-      <div filter><label></label><input type="checkbox" name="ch8" id="ch8"> filter 8</label></div>
+          <ul>
+          <h3>Discipline:</h3>
+            <li class="item"><input type="checkbox" name="" value=""> Biology</li>
+            <li class="item"><input type="checkbox" name="" value=""> Physics</li>
+            <li class="item"><input type="checkbox" name="" value=""> Computer Science</li>
+            <li class="item"><input type="checkbox" name="" value=""> Neuro Science</li>
+          </ul>
     </div>
-    <div card>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
-      <div journal><div>Journal Title</div><div>subject</div><div>X</div></div>
+    <div class="main">
+      <div class="flex-item journal">
+        <h4>Name</h4>
+        <ul class="list">
+          <li><a href="#">Journal of OSS</a></li>
+          <li><a href="#">A Journal</a></li>
+          <li><a href="#">Journal 3</a></li>
+          <li><a href="#">Journal 4</a></li>
+          <li><a href="#">Journal 5</a></li>
+          <li><a href="#">Journal 6</a></li>
+          <li><a href="#">Journal 7</a></li>
+          <li><a href="#">Journal 8</a></li>
+          <li><a href="#">Journal 9</a></li>
+          <li><a href="#">Journal 9</a></li>
+        </ul>
+      </div>
+      <div class="flex-item discipline">
+        <h4>Discipline</h4>
+        <ul class="list">
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Physics</li>
+          <li>Stuff</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+        </ul>
+      </div>
+      <div class="flex-item OSS">
+        <h4>OSS</h4>
+        <ul class="list">
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer M700>
-    <div>(c) codeisssciencecom 2017</div>
-    <div>@codeisscience</div>
-    <div>github.com/codeissscience</div>
+  </div>
+  <footer style="background-color:#069;padding:50px;margin-top:7px; color: #fff;">
+    <div style="float: left;">
+      © 2017 Code is Science
+      <a href="#" style="color: #E7403C;">Contact Us</a>
+    </div>
+    <div style="float: left; margin-left: 30%;">
+      Twitter: <a href="#" style="color: #fff;">@CodeIsScience</a></div>
+    <div style="float: right">
+      github.com/codeisscience
+    </div>
   </footer>
 </body>
 </html>
+
