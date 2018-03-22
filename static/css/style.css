@@ -26,6 +26,11 @@ body
   border-radius: 4px;
   border: 2px solid #f1f1f1;
 }
+
+.side-menu h2 {
+  margin-left: 20px;
+}
+
 .item {
   padding: 8px;
   margin-top: 7px;
@@ -231,12 +236,42 @@ input[type=button]:hover {
   border: 2px solid #8C9EFF;
 }
 
+/*Headings*/
 h2, h4 {
   color: #4C4C4D;
 }
 
 h3 {
   color: #E7403C;
+}
+
+/*Footer*/
+footer {
+  background-color:#069;
+  padding:50px;
+  margin-top:7px;
+  color: #fff;
+}
+
+.div-one {
+  float: left;
+}
+
+.div-one a, .div-two a, .div-three a {
+  color: #E7403C;
+}
+
+.div-one a:hover, .div-two a:hover, .div-three a:hover {
+  color: #fff;
+}
+
+.div-two {
+  float: left;
+  margin-left: 30%;
+}
+
+.div-three {
+  float: right;
 }
 
 
