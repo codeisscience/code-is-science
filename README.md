@@ -1,3 +1,5 @@
+![Code is Science Logo](static/images/logo.png)
+
 # Code is science!
 
 Code is Science works with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and [FAIR](https://www.nature.com/articles/sdata201618).
