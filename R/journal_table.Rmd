@@ -1,0 +1,34 @@
+---
+title: "Journals"
+author: "Hao Ye"
+date: "May 10, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(googlesheets)
+library(dplyr)
+```
+
+```{r get data, echo = FALSE, message = FALSE}
+# The Google Sheets API (which is used by the R package `googlesheets`) requires 
+# that the spreadsheet be "Published to the Web" (under the file menu).
+# I've made a copy of the original and published the `Journals` sheet here:
+
+# journal_db_url <- "https://docs.google.com/spreadsheets/d/1QTLR5NZbB6h4HpiHYOkQsEyBMzhcMN2Y8AVULLMFYBo/edit?usp=sharing"
+# journal_db <- gs_url(journal_db_url)
+
+# key is supposed to be reliable than URL
+journal_db_key <- "1QTLR5NZbB6h4HpiHYOkQsEyBMzhcMN2Y8AVULLMFYBo"
+journal_data <- journal_db_key %>%
+    gs_key() %>%
+    gs_read(ws = "Journals")
+```
+
+```{r generate table, echo = FALSE}
+journal_data %>% 
+    knitr::kable()
+```
+
+
