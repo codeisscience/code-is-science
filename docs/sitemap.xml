@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.codeisscience.com/posts/good-practices-code/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.codeisscience.com/posts/mozfest-session-2017/</loc>
     <lastmod>2017-10-29T15:16:54+01:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>http://www.codeisscience.com/</loc>
-    <lastmod>2017-10-29T15:16:54+01:00</lastmod>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,7 +28,7 @@
   
   <url>
     <loc>http://www.codeisscience.com/posts/</loc>
-    <lastmod>2017-10-29T15:16:54+01:00</lastmod>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
