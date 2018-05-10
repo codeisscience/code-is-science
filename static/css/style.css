@@ -317,4 +317,25 @@ label {
   border-radius: 4px;
 }
 
+.code-is-science-hugo header {
+  padding:1em 1em;
+  color:#fff; display:flex;
+}
 
+.code-is-science-hugo header img {
+  margin-right:1em;
+}
+
+.code-is-science-hugo header a {
+  color: #fff;
+  text-decoration:none;
+}
+
+
+.code-is-science-hugo main {
+  padding:1em
+}
+
+.code-is-science-hugo footer a {
+  color:#fff;
+}

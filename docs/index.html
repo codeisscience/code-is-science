@@ -1,88 +1,100 @@
 <!DOCTYPE html>
-<html lang="en-gb">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Code Is Science : Welcome!</title>
-	<meta name="description" content="Working with the scientific coding community to champion Open Source code, helping to ensure code is peer reviewed and FAIR.">
-	
-	<link rel="stylesheet" href="http://www.codeisscience.com/css/style.css">
-	<link href="http://www.codeisscience.com/index.xml" rel="feed" type="application/rss+xml" title="Code Is Science">
-	<meta name="generator" content="Hugo 0.29" />
-  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Code Is Science</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<a href="http://www.codeisscience.com/"><img alt="code is science home" src="http://www.codeisscience.com//logos/model-1/code-is-science-model-1.png" /></a>
-		<div class="header-text">
-			<a href="http://www.codeisscience.com/"><h1>Code Is Science</h1></a>
-			<p class="strapline">Working with the scientific coding community to champion Open Source code, helping to ensure code is peer reviewed and FAIR.</p>
-		</div>
-		
-	</header>
+  <nav>
+    <ul class="nav-bar">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="Code is Science" height="60"></a>
+       <li><a href="#" class="active">Open Source Journals</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">About</a></li>
+       <input type="text" name="" value="" placeholder="Search" class="search">
+       <!-- <input type="button" name="" value="Search" placeholder="Search" class="search"> -->
+     </ul>
+  </nav>
+  <div id="main">
+    <div class="side-menu">
+    <h2>Journals</h2>
+          <ul>
+          <h3>Filter by:</h3>
+            <li class="item"><input type="checkbox" name="" value=""> Open source</li>
+            <li class="item"><input type="checkbox" name="" value=""> Closed</li>
+            <li class="item"><input type="checkbox" name="" value=""> Unknown</li>
+          </ul>
 
-<main>
-	<article> 
-		
+          <ul>
+          <h3>Discipline:</h3>
+            <li class="item"><input type="checkbox" name="" value=""> Biology</li>
+            <li class="item"><input type="checkbox" name="" value=""> Physics</li>
+            <li class="item"><input type="checkbox" name="" value=""> Computer Science</li>
+            <li class="item"><input type="checkbox" name="" value=""> Neuro Science</li>
+          </ul>
+    </div>
+    <div class="main">
+      <div class="flex-item journal">
+        <h4>Name</h4>
+        <ul class="list">
+          <li><a href="#">Journal of OSS</a></li>
+          <li><a href="#">A Journal</a></li>
+          <li><a href="#">Journal 3</a></li>
+          <li><a href="#">Journal 4</a></li>
+          <li><a href="#">Journal 5</a></li>
+          <li><a href="#">Journal 6</a></li>
+          <li><a href="#">Journal 7</a></li>
+          <li><a href="#">Journal 8</a></li>
+          <li><a href="#">Journal 9</a></li>
+          <li><a href="#">Journal 9</a></li>
+        </ul>
+      </div>
+      <div class="flex-item discipline">
+        <h4>Discipline</h4>
+        <ul class="list">
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Physics</li>
+          <li>Stuff</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+          <li>Discipline</li>
+        </ul>
+      </div>
+      <div class="flex-item OSS">
+        <h4>OSS</h4>
+        <ul class="list">
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+          <li> Yes <input type="checkbox" name="" value="" placeholder=""> X <input type="checkbox" name="" value="" placeholder=""></li>
+        </ul>
+      </div>
+    </div>
 
-<h1 id="code-is-science">Code is science!</h1>
-
-<h2 id="premise">Premise</h2>
-
-<p><strong>Science is often computing:</strong> Much of modern science involves code these days, in large part due to the amount of data available - it would be almost impossible to analyse without computational assistance.</p>
-
-<p><strong>Science requires peer review:</strong> One of the basic prerequisites for any published scientific results is that it be reviewed by peers, to ensure the research and conclusions are valid.</p>
-
-<p><strong>Software contains errors:</strong> We may try pretty hard to write software without bugs, but they definitely still happen - and errors can be hard to spot. The bug doesn&rsquo;t have to cause <a href="https://www.scientificamerican.com/article/pogue-5-most-embarrassing-software-bugs-in-history/">catastrophic and obvious failure</a> - it could be silent but sneaky.</p>
-
-<h2 id="code-science">Code == Science</h2>
-
-<p>If software is required to perform science, it stands to reason that errors in your software mean errors in your science.</p>
-
-<h2 id="possible-solution">Possible Solution?</h2>
-
-<p>Scientific code needs to be peer reviewed, and ideally open source.</p>
-
-<p>That&rsquo;s easier said than done. Getting there requires awareness, culture shift, and adherence to best practices.</p>
-
-<h3 id="looking-to-contribute">Looking to Contribute?</h3>
-
-<ul>
-<li>Do you wish more code was open source? Have you wished in the past that a DB of open source journals existed? <a href="https://goo.gl/forms/k3IBxlDgi97ZTJuf2">Share your story</a></li>
-<li>Add more journals to our <a href="https://goo.gl/forms/Ak9WErbGVyeFioW33">list</a> Right now it&rsquo;s a google form, but hopefully we&rsquo;ll have the full site up and running soon!</li>
-<li>pick up a technical task on GitHub: <a href="https://github.com/yochannah/code-is-science">https://github.com/yochannah/code-is-science</a></li>
-</ul>
-
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"d868cf85b37e79afa2a1bfb5b","lid":"3a072191dd"}) })</script>
-
-	</article>
-		<aside>
-		<div>
-			<div>
-				<h3>LATEST POSTS</h3>
-			</div>
-			<div>
-				<ul>
-					
-					<li><a href="http://www.codeisscience.com/posts/mozfest-session-2017/">Mozfest Session 2017</a></li>
-					
-					<li><a href="http://www.codeisscience.com/posts/mozfest-is-coming/">Mozfest Is Coming</a></li>
-					
-					<li><a href="http://www.codeisscience.com/">Code Is Science : Welcome!</a></li>
-					
-					<li><a href="http://www.codeisscience.com/contact/">Contact us</a></li>
-					
-					<li><a href="http://www.codeisscience.com/posts/">Posts</a></li>
-					
-				</ul>
-			</div>
-		</div>
-	</aside>
-
-</main>
-	<footer>
-		<p>&copy; 2017 <a href="http://www.codeisscience.com/">Code Is Science</a> 🏳️‍🌈</p>
-	</footer>
+  </div>
+  <footer>
+    <div class="div-one">
+      © 2017 Code is Science
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="div-two">
+      Twitter: <a href="#">@CodeIsScience</a></div>
+    <div class="div-three">
+      GitHub: <a href="https://github.com/yochannah/code-is-science">CodeIsScience</a>
+    </div>
+  </footer>
 </body>
 </html>
+
