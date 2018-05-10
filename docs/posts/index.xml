@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Code Is Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 Oct 2017 15:16:54 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 10 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.codeisscience.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Good practices &amp; good quality code</title>
+      <link>http://www.codeisscience.com/posts/good-practices-code/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.codeisscience.com/posts/good-practices-code/</guid>
+      <description>Here are a few things that will help you create good habit when creating scientific code and thus produce better quality code.
+Resources  Software carpentry - resources to learn and teach coding practices for scientists. * Scientific computing for the rest of us   Sites to host code  FigShare, hosts code and issues DOIs. Open Science Framework, offers resources, storage, even virtual machines. GitXiv Matches code in Github with articles in ArXiV.</description>
+    </item>
     
     <item>
       <title>Mozfest Session 2017</title>
