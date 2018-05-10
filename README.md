@@ -13,7 +13,7 @@ New: we have a [gitter room](https://gitter.im/codeisscience/Lobby#)!
 This is primarily managed as a list of tickets in a [GitHub project board](https://github.com/yochannah/code-is-science/projects/1), but here's a quick rough list:
 
 ### Short term 
-  - Need to create an open source scientific code manifesto. 
+  - Design tasks - head to our [logos repo](https://github.com/codeisscience/logos/issues/) - we'd like logos to represent all scientific disciplines! 
  
 ### Medium term 
 - begin technical development of journal database, including [db component](https://github.com/yochannah/code-is-science/issues/5), [api](https://github.com/yochannah/code-is-science/issues/7), [ui](https://github.com/yochannah/code-is-science/issues/9), and [search](https://github.com/yochannah/code-is-science/issues/8)
