@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(googlesheets)
 library(dplyr)
 library(lubridate)
+library(DT)
 ```
 
 ```{r get data, echo = FALSE, message = FALSE}
@@ -28,15 +29,14 @@ journal_data <- journal_db_key %>%
 ```
 
 ```{r clean data, include = FALSE}
-journal_data <- journal_data %>%
-    mutate("Date reviewed" = parse_date_time(journal_data$`Date reviewed`, 
-                                             orders = c("m/d/y", "d b y")))
-
+journal_data$"Date reviewed" <- as.Date(parse_date_time(journal_data$"Date reviewed", 
+                                                           orders = c("m/d/y", "d b y")))
 ```
 
 ```{r generate table, echo = FALSE}
 journal_data %>% 
-    knitr::kable()
+    datatable(filter = "top") %>%
+    formatDate("Date reviewed", method = "toDateString")
 ```
 
 
