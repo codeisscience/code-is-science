@@ -6,7 +6,9 @@
 
 ## Premise
 
-**Science is often computing:** Much of modern science involves code these days, in large part due to the amount of data available - it would be almost impossible to analyse without computational assistance.
+**Science is often computing:** Much of modern science involves code
+these days, in large part due to the amount of data available - it
+would be almost impossible to analyse that data without computational assistance.
 
 **Science requires peer review:** One of the basic prerequisites for any published scientific results is that it be reviewed by peers, to ensure the research and conclusions are valid.
 
