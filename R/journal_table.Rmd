@@ -9,6 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(googlesheets)
 library(dplyr)
+library(lubridate)
 ```
 
 ```{r get data, echo = FALSE, message = FALSE}
@@ -24,6 +25,13 @@ journal_db_key <- "1QTLR5NZbB6h4HpiHYOkQsEyBMzhcMN2Y8AVULLMFYBo"
 journal_data <- journal_db_key %>%
     gs_key() %>%
     gs_read(ws = "Journals")
+```
+
+```{r clean data, include = FALSE}
+journal_data <- journal_data %>%
+    mutate("Date reviewed" = parse_date_time(journal_data$`Date reviewed`, 
+                                             orders = c("m/d/y", "d b y")))
+
 ```
 
 ```{r generate table, echo = FALSE}
