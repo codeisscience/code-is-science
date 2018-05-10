@@ -1,7 +1,7 @@
 baseURL = "http://www.codeisscience.com/"
 languageCode = "en-gb"
 title = "Code Is Science"
-theme = "blank"
+theme = "codeisscience"
 publishDir = "docs"
 disableKinds= ["taxonomy"]
 taxonomies= false
