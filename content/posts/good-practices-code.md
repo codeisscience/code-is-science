@@ -10,21 +10,18 @@ creating scientific code and thus produce better quality code.
 
 * [Software carpentry](https://software-carpentry.org/) - resources to
   learn and teach coding practices for scientists.
-*
-  [Scientific computing for the rest of us](https://github.com/tpoisot/ScientificComputingForTheRestOfUs)
-  
-## Sites to host code 
+* [Scientific computing for the rest of us](https://github.com/tpoisot/ScientificComputingForTheRestOfUs)
+
+## Sites to host code
 
 * [FigShare](http://figshare.com), hosts code and issues DOIs.
 * [Open Science Framework](https://osf.io), offers resources, storage,
   even virtual machines.
 * [GitXiv](https://gitxiv.com) Matches code in Github with articles in
-  ArXiV. 
-  
+  ArXiV.
+
 ## Articles with best practices
 
 * [Good enough practices in scientific computing](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510), PLoS Comput Biol, 2017.
 
 * [Best Practices in Scientific Computing, Wilson et al., 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
- 
- 
