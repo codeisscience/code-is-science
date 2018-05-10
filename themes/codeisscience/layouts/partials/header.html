@@ -10,7 +10,9 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
-  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">
+	<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">	
 </head>
 <body class="code-is-science-hugo">
 	<header class="nav-bar">
