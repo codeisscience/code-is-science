@@ -15,11 +15,11 @@ script:
 after_success:
   - git add --all
   - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
-  - git push "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
+  - git push https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git ${TARGET_BRANCH}
 
 env:
   global:
-    - GIT_NAME: "Travis CI"
+    - GIT_NAME: "Hao Ye"
     - GITHUB_USER: ha0ye
     - GITHUB_REPO: code-is-science
     - TARGET_BRANCH: master
