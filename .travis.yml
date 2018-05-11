@@ -1,13 +1,13 @@
-language: go
-go: 
-  - master
+dist: trusty
+sudo: required
 
 before_install:
   - git config user.name "${GIT_NAME}"
   - git config user.email "${GIT_EMAIL}"
 
 install:
-  - go get github.com/spf13/hugo
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
 
 before_script:
   - git clone --depth 1 https://github.com/${GITHUB_USER}/${GITHUB_REPO}.git -branch ${TARGET_BRANCH} --single-branch public
