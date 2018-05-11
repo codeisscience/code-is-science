@@ -1,7 +1,19 @@
 #!/bin/bash
 
-if git diff --name-only HEAD^ HEAD | grep content
+# To install,
+# ln -s post-commit .git/hooks
+
+changed_content_files=$( git diff --name-only HEAD^ HEAD | grep content )
+
+if [[ -n $changed_content_files ]]
 then
         echo "Running hugo"
         hugo
+        untracked_files = $( git ls-files --others --exclude-standard )
+        if [[ -n $untracked_files ]]
+        then
+            echo "New files have been generated. Please add them to the commit and to it manually"
+        else
+            git commit -am "Updates hugo files after ${changed_content_files} changed"
+        fi
 fi
