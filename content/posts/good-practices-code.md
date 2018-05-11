@@ -14,8 +14,8 @@ creating scientific code and thus produce better quality code.
 
 ## Sites to host code
 
-* [FigShare](http://figshare.com), hosts code and issues DOIs.
-* [Open Science Framework](https://osf.io), offers resources, storage,
+* [FigShare](https://figshare.com), hosts code and issues DOIs.
+* [Open Science Framework](https://osf.io), offers project hosting, storage,
   even virtual machines.
 * [GitXiv](https://gitxiv.com): Matches code in Github with articles in
   ArXiV.
