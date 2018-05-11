@@ -7,7 +7,7 @@ before_install:
   - git config user.email "${GIT_EMAIL}"
 
 install:
-  go get github.com/gohugoio/hugo
+  - go get github.com/spf13/hugo
 
 before_script:
   - git clone --depth 1 https://github.com/${GITHUB_USER}/${GITHUB_REPO}.git -branch ${TARGET_BRANCH} --single-branch public
