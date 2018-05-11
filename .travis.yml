@@ -1,14 +1,17 @@
 dist: trusty
 sudo: required
+language: r
+r: 
+  - release
 
 before_install:
   - git config user.name "${GIT_NAME}"
   - git config user.email "${GIT_EMAIL}"
 
-addons:
-  apt:
-    packages:
-    - r-base-dev
+# addons:
+#  apt:
+#    packages:
+#    - r-base-dev
 
 install:
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.deb
