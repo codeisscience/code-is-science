@@ -16,7 +16,7 @@ install:
 
 script:
   - hugo -v
-  - Rscript R/install_package_dependencies.R
+  - sudo Rscript R/install_package_dependencies.R
   - Rscript R/render_html.R
 
 after_success:
