@@ -9,16 +9,12 @@ install:
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
 
-before_script:
-  - git clone --dept 1 https://github.com/${GITHUB_USER}/${GITHUB_REPO}.git --branch ${TARGET_BRANCH} --single-branch docs
-  - cd docs && git rm -rf . && cd ..
-
 script:
   - hugo
 
 after_success:
   - cd public
-  - git add .
+  - git add docs
   - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
   - git push --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
 
