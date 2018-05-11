@@ -25,6 +25,6 @@ after_success:
 env:
   global:
     - GIT_NAME: "Travis CI"
-    - GITHUB_USER: <>
-    - GITHUB_REPO: <code-is-science>
+    - GITHUB_USER: ha0ye
+    - GITHUB_REPO: code-is-science
     - TARGET_BRANCH: master
