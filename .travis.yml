@@ -13,7 +13,6 @@ script:
   - hugo
 
 after_success:
-  - cd public
   - git add docs
   - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
   - git push --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
