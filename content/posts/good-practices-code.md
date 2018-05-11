@@ -10,7 +10,7 @@ creating scientific code and thus produce better quality code.
 
 * [Software carpentry](https://software-carpentry.org/) - resources to
   learn and teach coding practices for scientists.
-* [Scientific computing for the rest of us](https://github.com/tpoisot/ScientificComputingForTheRestOfUs)
+* [Scientific computing for the rest of us](https://github.com/tpoisot/ScientificComputingForTheRestOfUs).
 
 ## Sites to host code
 
