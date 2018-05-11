@@ -1,8 +1,7 @@
 dist: trusty
 sudo: required
 language: r
-r: 
-  - release
+cache: packages
 
 before_install:
   - git config user.name "${GIT_NAME}"
@@ -16,11 +15,11 @@ before_install:
 install:
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
+  - Rscript R/install_package_dependencies.R
+  - Rscript R/render_html.R
 
 script:
   - hugo -v
-  - sudo Rscript R/install_package_dependencies.R
-  - Rscript R/render_html.R
 
 after_success:
   - git checkout master
