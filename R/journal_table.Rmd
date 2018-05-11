@@ -13,7 +13,7 @@ library(lubridate)
 library(DT)
 ```
 
-```{r get data, echo = FALSE, message = FALSE}
+```{r get data, include = FALSE}
 # The Google Sheets API (which is used by the R package `googlesheets`) requires 
 # that the spreadsheet be "Published to the Web" (under the file menu).
 # I've made a copy of the original and published the `Journals` sheet here:
