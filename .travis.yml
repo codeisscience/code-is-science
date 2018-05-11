@@ -13,6 +13,7 @@ script:
   - hugo -v
 
 after_success:
+  - git checkout master
   - git add --all
   - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
   - git push https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git ${TARGET_BRANCH}
