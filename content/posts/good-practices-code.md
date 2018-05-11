@@ -24,4 +24,4 @@ creating scientific code and thus produce better quality code.
 
 * [Good enough practices in scientific computing](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510), PLoS Comput Biol, 2017.
 
-* [Best Practices in Scientific Computing, Wilson et al., 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+* [Best Practices in Scientific Computing, Wilson et al., 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745).
