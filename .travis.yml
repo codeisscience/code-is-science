@@ -1,0 +1,30 @@
+language: go
+go: 
+  - master
+
+before_install:
+  - git config user.name "${GIT_NAME}"
+  - git config user.email "${GIT_EMAIL}"
+
+install:
+  go get github.com/gohugoio/hugo
+
+before_script:
+  - git clone --depth 1 https://github.com/${GITHUB_USER}/${GITHUB_REPO}.git -branch ${TARGET_BRANCH} --single-branch public
+  - cd public && git rm -rf . && cd ..
+
+script:
+  - hugo
+
+after_success:
+  - cd public
+  - git add .
+  - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
+  - git push --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
+
+env:
+  global:
+    - GIT_NAME: "Travis CI"
+    - GITHUB_USER: <>
+    - GITHUB_REPO: <code-is-science>
+    - TARGET_BRANCH: master
