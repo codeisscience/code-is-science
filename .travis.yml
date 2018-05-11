@@ -10,12 +10,12 @@ install:
   - sudo dpkg -i /tmp/hugo.deb
 
 script:
-  - hugo
+  - hugo -v
 
 after_success:
-  - git add docs
+  - git add --all
   - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
-  - git push --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
+  - git push "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" ${TARGET_BRANCH}
 
 env:
   global:
