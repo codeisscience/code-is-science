@@ -11,6 +11,7 @@ install:
 
 script:
   - hugo -v
+  - Rscript R/render_html.R
 
 after_success:
   - git checkout master
