@@ -1,0 +1,35 @@
+dist: trusty
+sudo: required
+language: r
+cache: packages
+
+before_install:
+  - git config user.name "${GIT_NAME}"
+  - git config user.email "${GIT_EMAIL}"
+
+# addons:
+#  apt:
+#    packages:
+#    - r-base-dev
+
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+  - Rscript R/install_package_dependencies.R
+  - Rscript R/render_html.R
+
+script:
+  - hugo -v
+
+after_success:
+  - git checkout master
+  - git add --all
+  - git commit -m "Generated Hugo Site by Travis CI [Build#${TRAVIS_BUILD_NUMBER}]"
+  - git push https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git ${TARGET_BRANCH}
+
+env:
+  global:
+    - GIT_NAME: "Hao Ye"
+    - GITHUB_USER: ha0ye
+    - GITHUB_REPO: code-is-science
+    - TARGET_BRANCH: master
