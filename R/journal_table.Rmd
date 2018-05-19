@@ -14,29 +14,26 @@ library(DT)
 ```
 
 ```{r get data, include = FALSE}
-# The Google Sheets API (which is used by the R package `googlesheets`) requires 
+# The Google Sheets API (which is used by the R package `googlesheets`) requires
 # that the spreadsheet be "Published to the Web" (under the file menu).
-# I've made a copy of the original and published the `Journals` sheet here:
 
-# journal_db_url <- "https://docs.google.com/spreadsheets/d/1QTLR5NZbB6h4HpiHYOkQsEyBMzhcMN2Y8AVULLMFYBo/edit?usp=sharing"
+# journal_db_url <- "https://docs.google.com/spreadsheets/d/1oY5ak7VJa-qwJJeWA3829S-1akZaYtHuWPYpChBdW2o/edit#gid=1191947390"
 # journal_db <- gs_url(journal_db_url)
 
 # key is supposed to be reliable than URL
-journal_db_key <- "1QTLR5NZbB6h4HpiHYOkQsEyBMzhcMN2Y8AVULLMFYBo"
+journal_db_key <- "1oY5ak7VJa-qwJJeWA3829S-1akZaYtHuWPYpChBdW2o"
 journal_data <- journal_db_key %>%
     gs_key() %>%
-    gs_read(ws = "Journals")
+    gs_read(ws = "Form responses 1")
 ```
 
 ```{r clean data, include = FALSE}
-journal_data$"Date reviewed" <- as.Date(parse_date_time(journal_data$"Date reviewed", 
+journal_data$"Timestamp" <- as.Date(parse_date_time(journal_data$"Timestamp",
                                                            orders = c("m/d/y", "d b y")))
 ```
 
 ```{r generate table, echo = FALSE}
-journal_data %>% 
+journal_data %>%
     datatable(filter = "top") %>%
-    formatDate("Date reviewed", method = "toDateString")
+    formatDate("Timestamp", method = "toDateString")
 ```
-
-
