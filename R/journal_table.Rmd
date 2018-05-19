@@ -2,7 +2,10 @@
 title: "Journals"
 author: "Hao Ye"
 date: "May 10, 2018"
-output: html_document
+output:
+  html_document:
+    css: ../themes/codeisscience/static/css/style.css
+    template: template.html
 ---
 
 ```{r setup, include=FALSE}
