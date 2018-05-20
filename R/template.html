@@ -47,12 +47,14 @@
 </head>
 
 <body>
-  $for(include-before)$ $include-before$ $endfor$   <nav>
+  $for(include-before)$ $include-before$ $endfor$
+<!--Header-->
+  <nav>
     <ul class="nav-bar">
     <a class="logo" href="index.html"><img src="../static/images/model-2/code-is-science-model-2-light.png" alt="Code is Science" height="60"></a>
        <li><a href="#" class="active">Open Source Journals</a></li>
-       <li><a href="#">Contact</a></li>
-       <li><a href="#">About</a></li>
+       <li><a href="/contact">Contact</a></li>
+       <li><a href="/">About</a></li>
 
      </ul>
   </nav>
@@ -61,7 +63,11 @@ $if(toc)$
     $table-of-contents$
   </nav>
   $endif$
+  <!-- content -->
+  <main>
   $body$
+  </main>
+  <!-- end content -->
   $for(include-after)$ $include-after$ $endfor$
   <footer>
     <div class="div-one">
