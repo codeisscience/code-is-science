@@ -14,7 +14,7 @@
 </symbol>
 <symbol id="icon-gitter" viewBox="0 0 32 32">
 <title>gitter</title>
-<path fill="#ed1965" style="fill: var(--color1, #ed1965)" d="M11.335 5.335h2.665v26.665h-2.665v-26.665zM20.667 5.335v26.665h-2.667v-26.665h2.667zM4.667 0h2.668v20h-2.668v-20zM24.667 5.335h2.667v14.665h-2.667v-14.665z"></path>
+<path d="M11.335 5.335h2.665v26.665h-2.665v-26.665zM20.667 5.335v26.665h-2.667v-26.665h2.667zM4.667 0h2.668v20h-2.668v-20zM24.667 5.335h2.667v14.665h-2.667v-14.665z"></path>
 </symbol>
 </defs>
 </svg>
