@@ -7,25 +7,21 @@
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">
-	<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">	
+	<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">
 </head>
 <body class="code-is-science-hugo">
-	<header class="nav-bar">
-		<a href="{{ .Site.BaseURL }}"><img alt="code is science home" src="{{ .Site.BaseURL }}images/model-2/code-is-science-model-2-light.png" height="130"/></a>
-  		<div class="header-text">
-			<a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-			<p class="strapline">{{ .Site.Params.description}}</p>
-		</div>
-		<!--nav>
-			<ul>
-				{{ range .Site.Menus.main }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-				{{ end }}
-			</ul>
-		</nav-->
-	</header>
+
+    <nav>
+      <ul class="nav-bar">
+      <a class="logo" href="{{ .Site.BaseURL }}"><img  src="{{ .Site.BaseURL }}images/model-2/code-is-science-model-2-light.png" alt="Code is Science" height="60"></a>
+         <li><a href="/journal_table.html">Open Source Journals</a></li>
+         <li><a href="/contact">Contact</a></li>
+         <li><a href="/">About</a></li>
+
+       </ul>
+    </nav>
