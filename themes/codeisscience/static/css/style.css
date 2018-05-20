@@ -7,6 +7,9 @@ body {
   font-family: arial, sans-serif;
   background-color: #fff;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
 }
 /*Main*/
 * {
@@ -16,18 +19,25 @@ body {
   overflow: auto;
 }
 main {
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  display: flex;
+  flex-grow: 1;
+}
+main article {
+  margin: 0.5em;
 }
 .side-menu {
-  float: left;
   width: 25%;
+  min-width: 25vw;
   padding-right: 10px;
   margin-right: 10px;
+  margin-top: 1em;
   background-color: #f1f1f1;
   border-radius: 4px;
   border: 2px solid #f1f1f1;
 }
-.side-menu h2 {
+.side-menu h2,
+.side-menu h3 {
   margin-left: 20px;
 }
 .item {
@@ -170,13 +180,6 @@ main {
   margin: 10px 10em;
 }
 nav {
-  /* Sizing */
-  height: auto;
-  width: 100%;
-  /* Position */
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 5;
   /* Flex properties */
   display: flex;
@@ -273,21 +276,24 @@ label {
   font-size: 15px;
   border-radius: 4px;
 }
-.code-is-science-hugo header {
-  padding: 1em;
-  color: #fff;
+.contact-methods {
   display: flex;
 }
-.code-is-science-hugo header img {
-  margin-right: 1em;
+.contact-methods .icon {
+  fill: #666;
+  width: 3em;
+  height: 3em;
 }
-.code-is-science-hugo header a {
-  color: #fff;
-  text-decoration: none;
-}
-.code-is-science-hugo main {
+.contact-methods .contact-method {
+  display: flex;
+  margin: 0.5em;
+  flex-grow: 1;
+  font-size: 1.4em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #eeeeee;
   padding: 1em;
-}
-.code-is-science-hugo footer a {
-  color: #fff;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
 }
