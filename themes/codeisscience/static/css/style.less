@@ -148,9 +148,13 @@ main {
 
   &.main-logo {
     flex: 0 0 auto;
-    width: 250px;
+    width: 100%;
 
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width: 700px) {
+      width: 50%;
+    }
+
+    @media screen and (min-width:900px) {
       width: 70%;
     }
   }
@@ -172,14 +176,6 @@ main {
   .nav-bar{
 	  flex-wrap: wrap;
 	  justify-content: flex-start;
-  }
-
-  .nav-bar > li {
-    flex-basis: 33%;
-  }
-
-  .logo {
-	  padding-right: 50px;
   }
 }
 
