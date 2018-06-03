@@ -311,3 +311,7 @@ label {
   align-items: center;
   justify-content: center;
 }
+.footer-links {
+  margin: auto;
+  display: table;
+}
