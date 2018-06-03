@@ -120,27 +120,44 @@ main {
 }
 /*Navigation*/
 .nav-bar {
+  display: flex;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #069;
 }
 
-.nav-bar li {
-  float: left;
+.nav-bar > li {
+  flex: 1;
   padding-top: 20px;
   right: 0;
   left: auto;
   list-style-type: none;
 }
 
-.nav-bar li a {
+.nav-bar > li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 18px;
   text-decoration: none;
   border-bottom: 3px solid #069;
+}
+
+@media all and (max-width: 700px){
+  .nav-bar{
+	  flex-wrap: wrap;
+	  justify-content: flex-start;
+  }
+
+  .nav-bar > li {
+  flex-basis: 33%;
+  }
+
+  .logo {
+	  padding-right: 50px;
+  }
 }
 
 .nav-bar li a:hover:not(.active) {

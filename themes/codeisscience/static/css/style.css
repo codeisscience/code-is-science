@@ -353,3 +353,7 @@ label {
 .contact-methods .contact-link > a:hover {
   color: #4C4C4D;
 }
+.footer-links {
+  margin: auto;
+  display: table;
+}
