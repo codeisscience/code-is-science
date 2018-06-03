@@ -28,6 +28,16 @@ main {
 
   article {
     margin: 0.5em;
+    flex: 1 1;
+  }
+
+  .side-menu {
+    flex: 0 0 auto;
+    width: 100%;
+
+    @media only screen and (min-width: 700px) {
+      width: 25%;
+    }
   }
 }
 
@@ -119,30 +129,47 @@ main {
   color: #E7403C;
 }
 /*Navigation*/
+
+.main-navigation {
+  background-color: #069;
+  overflow: hidden;
+}
+
 .nav-bar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #069;
 }
 
 .nav-bar > li {
-  flex: 1;
-  padding-top: 20px;
-  right: 0;
-  left: auto;
+  align-self: center;
   list-style-type: none;
+
+  &.main-logo {
+    flex: 0 0 auto;
+    width: 100%;
+
+    @media screen and (min-width: 700px) {
+      width: 50%;
+    }
+
+    @media screen and (min-width:900px) {
+      width: 70%;
+    }
+  }
 }
 
 .nav-bar > li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 18px;
   text-decoration: none;
   border-bottom: 3px solid #069;
+}
+
+.nav-bar > li a:not(.logo) {
+  text-align: center;
+  padding: 14px 18px;
 }
 
 @media all and (max-width: 700px){
@@ -150,17 +177,9 @@ main {
 	  flex-wrap: wrap;
 	  justify-content: flex-start;
   }
-
-  .nav-bar > li {
-  flex-basis: 33%;
-  }
-
-  .logo {
-	  padding-right: 50px;
-  }
 }
 
-.nav-bar li a:hover:not(.active) {
+.nav-bar li a:hover:not(.logo):not(.active) {
   border-bottom: 3px solid #E7403C;
   color: #E7403C;
 }
@@ -220,9 +239,9 @@ main {
   flex-direction: row;
 }
 /*Logo*/
+
 .logo {
-  float: left;
-  margin: 10px 10em;
+  margin: 10px 30px;
 }
 
 nav {
@@ -336,7 +355,37 @@ label {
 }
 
 .contact-methods {
+  margin: 0;
+  padding: 0;
+
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  text-align: center;
+  list-style: none;
+
+  @media only screen and (min-width: 1200px) {
+    // max-width so that in large desktops
+    // list does not extend to 100%.
+    max-width: 920px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  li {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 50%;
+
+    // 1200px is added here to allow
+    // contact@codeisscience.com not get
+    // out of container
+
+    @media only screen and (min-width: 1200px) {
+      width: 25%;
+    }
+  }
 
   .icon {
     fill: #666;
@@ -345,18 +394,22 @@ label {
   }
 
   .contact-method {
-    display: flex;
-    align-items: center;
     margin: 0.5em;
-    flex-grow: 1;
-    font-size: 1.4em;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: #eeeeee;
     padding: 1em;
     border-radius: 2px;
-    align-items: center;
-    justify-content: center;
+  }
+
+  .contact-link {
+    & > a {
+      color: #3597D3;
+      font-size: 14px;
+      margin-top: 10px;
+
+      &:hover {
+        color: #4C4C4D;
+      }
+    }
   }
 }
 .footer-links{
