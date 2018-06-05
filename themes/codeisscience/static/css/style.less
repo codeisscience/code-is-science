@@ -1,3 +1,14 @@
+// COLORS USED IN Code-is-science
+// Name derived from http://chir.ag/projects/name-that-color/#
+@abbey: #4C4C4D;
+@bahama-blue: #006699;
+@cinnabar: #E7403C;
+@curious-blue: #3597D3;
+@jaffa: #F47A37;
+@gallery: #EEEEEE;
+@seashell: #F1F1F1;
+@white: #FFF;
+
 body,
 html {
   margin: 0;
@@ -6,7 +17,7 @@ html {
 
 body {
   font-family: arial, sans-serif;
-  background-color: #fff;
+  background-color: @white;
   font-size: 14px;
   display: flex;
   flex-direction: column;
@@ -47,9 +58,9 @@ main {
   padding-right: 10px;
   margin-right: 10px;
   margin-top: 1em;
-  background-color: #f1f1f1;
+  background-color: @seashell;
   border-radius: 4px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid @seashell;
 }
 
 .side-menu {
@@ -62,7 +73,7 @@ main {
 .item {
   padding: 8px;
   margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid @seashell;
   list-style-type: none;
 }
 
@@ -90,9 +101,9 @@ main {
   display: flex;
   width: 80%;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: @seashell;
   border-radius: 4px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid @seashell;
 }
 
 .flex-item {
@@ -122,16 +133,16 @@ main {
 }
 
 .list a:link {
-  color: #3597D3;
+  color: @curious-blue;
 }
 
 .list a:hover {
-  color: #E7403C;
+  color: @cinnabar;
 }
 /*Navigation*/
 
 .main-navigation {
-  background-color: #069;
+  background-color: @bahama-blue;
   overflow: hidden;
 }
 
@@ -164,7 +175,7 @@ main {
   display: block;
   color: white;
   text-decoration: none;
-  border-bottom: 3px solid #069;
+  border-bottom: 3px solid @bahama-blue;
 }
 
 .nav-bar > li a:not(.logo) {
@@ -180,12 +191,12 @@ main {
 }
 
 .nav-bar li a:hover:not(.logo):not(.active) {
-  border-bottom: 3px solid #E7403C;
-  color: #E7403C;
+  border-bottom: 3px solid @cinnabar;
+  color: @cinnabar;
 }
 
 .active {
-  border-bottom: 3px solid #E7403C;
+  border-bottom: 3px solid @cinnabar;
 }
 /*Media Queries*/
 @media only screen and (max-width:800px) {
@@ -256,23 +267,24 @@ nav {
 .search {
   margin-top: 23px;
 }
+
 /*To avoid conflicts used class instead of type*/
 input[type=text] {
   width: 60%;
   padding: 10px 20px;
-  border: 2px solid #E7403C;
+  border: 2px solid @cinnabar;
   border-radius: 4px;
 }
 
 input[type=text]:focus {
-  border: 2px solid #3597D3;
+  border: 2px solid @curious-blue;
   border-radius: 4px;
 }
 
 input.search {
   width: 20%;
   box-sizing: border-box;
-  border: 2px solid #3597D3;
+  border: 2px solid @curious-blue;
   border-radius: 4px; //  background-image: url('../images/searchicon.png');
   background-position: 5px 10px;
   background-repeat: no-repeat;
@@ -283,33 +295,47 @@ input.search {
 input[type=button] {
   border-radius: 4px;
   padding: 14px 40px;
-  background: #E7403C;
-  border: 2px solid #E7403C;
+  background: @cinnabar;
+  border: 2px solid @cinnabar;
   text-align: center;
-  color: #fff;
+  color: @white;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 input[type=button]:hover {
-  background: #3597D3;
-  border: 2px solid #3597D3;
+  background: @curious-blue;
+  border: 2px solid @curious-blue;
 }
 /*Headings*/
 h2,
 h4 {
-  color: #4C4C4D;
+  color: @abbey;
 }
 
 h3 {
-  color: #E7403C;
+  color: @cinnabar;
 }
 /*Footer*/
-footer {
-  background-color: #069;
-  min-height: 60px;
-  margin-top: 7px;
-  color: #fff;
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  background-color: @bahama-blue;
+  padding: 20px 0;
+  margin-top: 10px;
+  color: @white;
+
+  > * {
+    padding: 0 0.2em;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
 }
 
 .div-one {
@@ -319,13 +345,13 @@ footer {
 .div-one a,
 .div-three a,
 .div-two a {
-  color: #E7403C;
+  color: @cinnabar;
 }
 
 .div-one a:hover,
 .div-three a:hover,
 .div-two a:hover {
-  color: #fff;
+  color: @white;
 }
 
 .div-two {
@@ -336,6 +362,7 @@ footer {
 .div-three {
   float: right;
 }
+
 /*Form*/
 label {
   float: left;
@@ -388,31 +415,35 @@ label {
   }
 
   .icon {
-    fill: #666;
+    fill: @abbey;
     width: 3em;
     height: 3em;
   }
 
   .contact-method {
     margin: 0.5em;
-    background-color: #eeeeee;
+    background-color: @gallery;
     padding: 1em;
     border-radius: 2px;
   }
 
   .contact-link {
     & > a {
-      color: #3597D3;
+      color: @curious-blue;
       font-size: 14px;
       margin-top: 10px;
 
       &:hover {
-        color: #4C4C4D;
+        color: @abbey;
       }
     }
   }
 }
-.footer-links{
-  margin: auto;
-  display: table;
+
+.footer-links {
+  color: @white;
+
+  &:hover {
+    color: @jaffa;
+  }
 }
