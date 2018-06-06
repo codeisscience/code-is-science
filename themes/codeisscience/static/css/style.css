@@ -5,7 +5,7 @@ html {
 }
 body {
   font-family: arial, sans-serif;
-  background-color: #fff;
+  background-color: #FFF;
   font-size: 14px;
   display: flex;
   flex-direction: column;
@@ -42,9 +42,9 @@ main .side-menu {
   padding-right: 10px;
   margin-right: 10px;
   margin-top: 1em;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   border-radius: 4px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #F1F1F1;
 }
 .side-menu h2,
 .side-menu h3 {
@@ -53,7 +53,7 @@ main .side-menu {
 .item {
   padding: 8px;
   margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #F1F1F1;
   list-style-type: none;
 }
 .main {
@@ -79,9 +79,9 @@ main .side-menu {
   display: flex;
   width: 80%;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   border-radius: 4px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #F1F1F1;
 }
 .flex-item {
   margin: 10px;
@@ -112,7 +112,7 @@ main .side-menu {
 }
 /*Navigation*/
 .main-navigation {
-  background-color: #069;
+  background-color: #006699;
   overflow: hidden;
 }
 .nav-bar {
@@ -143,7 +143,7 @@ main .side-menu {
   display: block;
   color: white;
   text-decoration: none;
-  border-bottom: 3px solid #069;
+  border-bottom: 3px solid #006699;
 }
 .nav-bar > li a:not(.logo) {
   text-align: center;
@@ -249,7 +249,7 @@ input[type=button] {
   background: #E7403C;
   border: 2px solid #E7403C;
   text-align: center;
-  color: #fff;
+  color: #FFF;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -266,11 +266,22 @@ h3 {
   color: #E7403C;
 }
 /*Footer*/
-footer {
-  background-color: #069;
-  min-height: 60px;
-  margin-top: 7px;
-  color: #fff;
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #006699;
+  padding: 20px 0;
+  margin-top: 10px;
+  color: #FFF;
+}
+.footer-container > * {
+  padding: 0 0.2em;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 .div-one {
   float: left;
@@ -283,7 +294,7 @@ footer {
 .div-one a:hover,
 .div-three a:hover,
 .div-two a:hover {
-  color: #fff;
+  color: #FFF;
 }
 .div-two {
   float: left;
@@ -335,13 +346,13 @@ label {
   }
 }
 .contact-methods .icon {
-  fill: #666;
+  fill: #4C4C4D;
   width: 3em;
   height: 3em;
 }
 .contact-methods .contact-method {
   margin: 0.5em;
-  background-color: #eeeeee;
+  background-color: #EEEEEE;
   padding: 1em;
   border-radius: 2px;
 }
@@ -354,6 +365,8 @@ label {
   color: #4C4C4D;
 }
 .footer-links {
-  margin: auto;
-  display: table;
+  color: #FFF;
+}
+.footer-links:hover {
+  color: #F47A37;
 }
