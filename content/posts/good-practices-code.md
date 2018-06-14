@@ -10,7 +10,7 @@ creating scientific code and thus produce better quality code.
 
 * [Software carpentry](https://software-carpentry.org/) - resources to
   learn and teach coding practices for scientists.
-* [Scientific computing for the rest of us](https://github.com/tpoisot/ScientificComputingForTheRestOfUs)
+* [Scientific computing for the rest of us](http://sciencecomputing.io/)
 
 ## Sites to host code
 
@@ -19,6 +19,7 @@ creating scientific code and thus produce better quality code.
   even virtual machines.
 * [GitXiv](https://gitxiv.com): Matches code in Github with articles in
   ArXiV.
+ * [Zenodo](https://zenodo.org/), hosts code, issues DOI, works with GitHub
 
 ## Articles with best practices
 
