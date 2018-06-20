@@ -48,7 +48,9 @@ Look for this sign if you&amp;#39;re coming to our session on Sunday at 3:15! Ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.codeisscience.com/manifesto/</guid>
-      <description>Manifesto full text</description>
+      <description>This page should automatically redirect to the Manifesto. In case this doesn&amp;rsquo;t won&amp;rsquo;t, click below to visit the manifesto:
+Manifesto full text
+ //there is also a conditional meta refresh in the header to do this as an extra fallback. window.location.href=&#34;https://codeisscience.github.io/manifesto/&#34;  </description>
     </item>
     
     <item>
