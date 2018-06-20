@@ -13,6 +13,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">
 	<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/png">
+
+{{if eq .Title "Code is Science Manifesto"}}
+  <!-- redirect user to the manifesto repo, but only if they're at codeisscience.com/manifesto -->
+  <meta http-equiv="refresh" content="0; url=https://codeisscience.github.io/manifesto/" />
+{{end}}
+
 </head>
 <body class="code-is-science-hugo">
 
