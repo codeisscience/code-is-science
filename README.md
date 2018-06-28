@@ -9,6 +9,7 @@ For more details about our mission see [CodeIsScience.com](http://www.codeisscie
 ## Contact
 New: we have a [gitter room](https://gitter.im/codeisscience/Lobby#)!
 
+<script src="https://opencollective.com/code-is-science/donate/button.js" color="blue"></script>
 
 ## Roadmap
 This is primarily managed as a list of tickets in a [GitHub project board](https://github.com/yochannah/code-is-science/projects/1), but here's a quick rough list:
