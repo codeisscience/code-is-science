@@ -2,7 +2,10 @@
   "title" : "Code Is Science : Home"
 }
 
-# Code is science!
+<header class="flex_header">
+<h1 class="flex_header_h1">Code is science!</h1>
+<a class="manifesto_CTA"href="/manifesto" target="blank">Read and Sign<br>the Manifesto!</a>
+</header>
 
 ## Premise
 
