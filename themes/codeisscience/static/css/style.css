@@ -370,3 +370,11 @@ label {
 .footer-links:hover {
   color: #F47A37;
 }
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  /* stroke: currentColor; */
+  /* fill: currentColor; */
+}
