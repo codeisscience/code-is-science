@@ -373,8 +373,8 @@ label {
 .icon {
   display: inline-block;
   width: 1.5em;
-  height: 1.5em;
+  height: 1.2em;
   stroke-width: 0;
-  /* stroke: currentColor; */
-  /* fill: currentColor; */
+  stroke: currentColor;
+  fill: currentColor;
 }
