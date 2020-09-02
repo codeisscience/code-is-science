@@ -29,6 +29,6 @@ That's easier said than done. Getting there requires awareness, culture shift, a
 
 - Do you wish more code was open source? Have you wished in the past that a DB of open source journals existed? [Share your story](https://goo.gl/forms/k3IBxlDgi97ZTJuf2)
 - Add more journals to our [list](https://goo.gl/forms/Ak9WErbGVyeFioW33) Right now it's a google form, but hopefully we'll have the full site up and running soon!
-- pick up a technical or design task on GitHub: [https://github.com/yochannah/code-is-science](https://github.com/yochannah/code-is-science)
+- Pick up a technical or design task on GitHub: https://github.com/codeisscience/code-is-science
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"d868cf85b37e79afa2a1bfb5b","lid":"3a072191dd"}) })</script>
