@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     name: Generate Journal Table
-    runs-on: r-base
+    runs-on: ubuntu-20.04
     steps:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v2
