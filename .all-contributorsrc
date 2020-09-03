@@ -72,6 +72,16 @@
         "content",
         "question"
       ]
+    },
+    {
+      "login": "delwen",
+      "name": "Delwen Franzen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18604247?v=4",
+      "profile": "https://github.com/delwen",
+      "contributions": [
+        "content",
+        "question"
+      ]
     }
   ],
   "projectName": "code-is-science",
