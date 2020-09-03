@@ -1,6 +1,6 @@
 ![Code is Science Logo](static/images/logo.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Backers on Open Collective](https://opencollective.com/code-is-science/backers/badge.svg)](#backers)
@@ -31,13 +31,27 @@ This is primarily managed as a list of tickets in a [GitHub project board](https
 ### Tasks for anywhen
 - add to the "db" of journals that do (or don't) require an open source licence. Currently a google sheet: https://docs.google.com/spreadsheets/d/1oY5ak7VJa-qwJJeWA3829S-1akZaYtHuWPYpChBdW2o/edit#gid=1946180293
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://rgaiacs.com"><img src="https://avatars0.githubusercontent.com/u/1506457?v=4" width="100px;" alt=""/><br /><sub><b>Raniere Silva</b></sub></a></td>
+    <td align="center"><a href="https://github.com/JPTIZ"><img src="https://avatars2.githubusercontent.com/u/11988816?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo Taylor Ienczak Zanette</b></sub></a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 ## Credits 
-
-### Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="graphs/contributors"><img src="https://opencollective.com/code-is-science/contributors.svg?width=890&button=false" /></a>
-
 
 ### Backers
 
@@ -60,8 +74,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/code-is-science/sponsor/7/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/7/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/8/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/9/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/9/avatar.svg"></a>
-
-
 
 ## Contributors ✨
 

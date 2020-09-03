@@ -28,6 +28,18 @@
         "maintenance",
         "bug"
       ]
+    },
+    {
+      "login": "JPTIZ",
+      "name": "João Paulo Taylor Ienczak Zanette",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11988816?v=4",
+      "profile": "https://github.com/JPTIZ",
+      "contributions": [
+        "tool",
+        "code",
+        "infra",
+        "maintenance"
+      ]
     }
   ],
   "projectName": "code-is-science",
