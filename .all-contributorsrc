@@ -51,6 +51,17 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "Fnyasimi",
+      "name": "Fnyasimi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/41294948?v=4",
+      "profile": "https://github.com/Fnyasimi",
+      "contributions": [
+        "review",
+        "projectManagement",
+        "question"
+      ]
     }
   ],
   "projectName": "code-is-science",
