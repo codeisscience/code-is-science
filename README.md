@@ -1,6 +1,6 @@
 ![Code is Science Logo](static/images/logo.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Backers on Open Collective](https://opencollective.com/code-is-science/backers/badge.svg)](#backers)
@@ -40,7 +40,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://rgaiacs.com"><img src="https://avatars0.githubusercontent.com/u/1506457?v=4" width="100px;" alt=""/><br /><sub><b>Raniere Silva</b></sub></a><br /><a href="#tool-rgaiacs" title="Tools">🔧</a></td>
+    <td align="center"><a href="http://rgaiacs.com"><img src="https://avatars0.githubusercontent.com/u/1506457?v=4" width="100px;" alt=""/><br /><sub><b>Raniere Silva</b></sub></a></td>
+    <td align="center"><a href="https://github.com/JPTIZ"><img src="https://avatars2.githubusercontent.com/u/11988816?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo Taylor Ienczak Zanette</b></sub></a></td>
   </tr>
 </table>
 
