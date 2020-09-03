@@ -62,6 +62,16 @@
         "projectManagement",
         "question"
       ]
+    },
+    {
+      "login": "abigail-wood",
+      "name": "Abigail Wood",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15981287?v=4",
+      "profile": "http://biomake.space",
+      "contributions": [
+        "content",
+        "question"
+      ]
     }
   ],
   "projectName": "code-is-science",
