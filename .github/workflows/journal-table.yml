@@ -9,6 +9,9 @@ jobs:
     steps:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v2
+      - name: Install libcurl
+        run: |
+          sudo apt-get install -y libcurl-dev
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
       # This step installs R packages
