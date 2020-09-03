@@ -1,6 +1,6 @@
 ![Code is Science Logo](static/images/logo.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Backers on Open Collective](https://opencollective.com/code-is-science/backers/badge.svg)](#backers)
@@ -47,6 +47,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://biomake.space"><img src="https://avatars1.githubusercontent.com/u/15981287?v=4" width="100px;" alt=""/><br /><sub><b>Abigail Wood</b></sub></a></td>
     <td align="center"><a href="https://github.com/delwen"><img src="https://avatars0.githubusercontent.com/u/18604247?v=4" width="100px;" alt=""/><br /><sub><b>Delwen Franzen</b></sub></a></td>
     <td align="center"><a href="http://twitter.com/dipanshunagar"><img src="https://avatars0.githubusercontent.com/u/10234389?v=4" width="100px;" alt=""/><br /><sub><b>Dipanshu Nagar</b></sub></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://twitter.com/emmy_ft"><img src="https://avatars1.githubusercontent.com/u/24935760?v=4" width="100px;" alt=""/><br /><sub><b>Emmy Tsang</b></sub></a></td>
   </tr>
 </table>
 

@@ -93,6 +93,15 @@
         "question",
         "code"
       ]
+    },
+    {
+      "login": "emmyft",
+      "name": "Emmy Tsang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24935760?v=4",
+      "profile": "http://twitter.com/emmy_ft",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "projectName": "code-is-science",
