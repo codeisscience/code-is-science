@@ -5,10 +5,16 @@
 			</div>
 			<div>
 				<ul>
-					{{ range .Site.Pages.ByDate }}
+					{{ range first 5 (where .Site.RegularPages "Type" "posts") }}
 					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 					{{ end }}
 				</ul>
+
+                                <p>
+                                <a href="/posts">
+                                  More posts
+                                </a>
+                                </p>
 			</div>
 		</div>
 	</aside>
