@@ -19,3 +19,11 @@ jobs:
       - name: Rscript
         run: |
           Rscript R/render_html.R
+      - uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Code is Science Journal Table bot
+          author_email: journal.table.bot@codeisscience.com
+          message: 'Update journal table'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged'
