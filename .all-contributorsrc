@@ -82,6 +82,17 @@
         "content",
         "question"
       ]
+    },
+    {
+      "login": "dipanshunagar",
+      "name": "Dipanshu Nagar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10234389?v=4",
+      "profile": "http://twitter.com/dipanshunagar",
+      "contributions": [
+        "content",
+        "question",
+        "code"
+      ]
     }
   ],
   "projectName": "code-is-science",
