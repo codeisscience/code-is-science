@@ -1,10 +1,8 @@
 ---
-title: "Journals"
-author: "Hao Ye"
-date: "May 10, 2018"
+title: "Journals Table"
+author: "Yo Yehudi"
 output:
   html_document:
-    css: ../themes/codeisscience/static/css/style.css
     template: template.html
 ---
 

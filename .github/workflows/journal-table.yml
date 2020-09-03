@@ -1,0 +1,32 @@
+name: Generate Journal Table
+
+on: [push]
+
+jobs:
+  build:
+    name: Generate Journal Table
+    runs-on: ubuntu-20.04
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v2
+      - name: Install libcurl
+        run: |
+          sudo apt-get install -y libcurl4-openssl-dev
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      # This step installs R packages
+      - name: R packages
+        run: |
+          Rscript -e "install.packages(c('rmarkdown', 'googlesheets', 'dplyr', 'lubridate', 'DT', 'here'))"
+      # This step runs R
+      - name: Rscript
+        run: |
+          Rscript R/render_html.R
+      - uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Code is Science Journal Table bot
+          author_email: journal.table.bot@codeisscience.com
+          message: 'Update journal table'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged'

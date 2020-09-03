@@ -1,3 +1,5 @@
-rmarkdown::render(here::here("R", "journal_table.Rmd"))
-file.rename(here::here("R", "journal_table.html"), 
-            here::here("static", "journal_table.html"))
+rmarkdown::render(
+        here::here("R", "journal_table.Rmd"),
+        output_file = "journal_table.md",
+        output_dir = here::here("content")
+)
