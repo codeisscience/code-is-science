@@ -10,3 +10,6 @@ taxonomies= false
   iconsLink = "https://icomoon.io/"
   hugoTitle = "Hugo"
   hugoLink = "https://gohugo.io/"
+
+[markup.goldmark.renderer]
+unsafe= true
