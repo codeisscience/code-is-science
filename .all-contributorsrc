@@ -111,6 +111,16 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "billbrod",
+      "name": "William F. Broderick",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6338509?v=4",
+      "profile": "http://orcid.org/0000-0002-8999-9003",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "projectName": "code-is-science",
