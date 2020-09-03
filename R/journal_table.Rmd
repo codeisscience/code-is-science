@@ -1,6 +1,9 @@
 ---
 title: "Journals Table"
 author: "Yo Yehudi"
+output:
+  html_document:
+    template: template.html
 ---
 
 ```{r setup, include=FALSE}
