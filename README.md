@@ -52,6 +52,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://twitter.com/emmy_ft"><img src="https://avatars1.githubusercontent.com/u/24935760?v=4" width="100px;" alt=""/><br /><sub><b>Emmy Tsang</b></sub></a></td>
     <td align="center"><a href="https://github.com/helenapv"><img src="https://avatars2.githubusercontent.com/u/44844296?v=4" width="100px;" alt=""/><br /><sub><b>helenapv</b></sub></a></td>
     <td align="center"><a href="http://orcid.org/0000-0002-8999-9003"><img src="https://avatars1.githubusercontent.com/u/6338509?v=4" width="100px;" alt=""/><br /><sub><b>William F. Broderick</b></sub></a></td>
+    <td align="center"><a href="https://github.com/StuartRFKing"><img src="https://avatars0.githubusercontent.com/u/40833291?v=4" width="100px;" alt=""/><br /><sub><b>Stuart RF King</b></sub></a></td>
   </tr>
 </table>
 
@@ -84,22 +85,3 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/code-is-science/sponsor/7/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/7/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/8/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/9/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/9/avatar.svg"></a>
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://rgaiacs.com"><img src="https://avatars0.githubusercontent.com/u/1506457?v=4" width="100px;" alt=""/><br /><sub><b>Raniere Silva</b></sub></a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
