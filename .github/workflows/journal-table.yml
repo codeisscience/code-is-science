@@ -14,7 +14,7 @@ jobs:
       # This step installs R packages
       - name: R packages
         run: |
-          Rscript -e "install.packages(c('rmarkdown', 'googlesheets', 'dplyr', 'lubridate', 'DT'))"
+          Rscript -e "install.packages(c('rmarkdown', 'googlesheets', 'dplyr', 'lubridate', 'DT', 'here'))"
       # This step runs R
       - name: Rscript
         run: |
