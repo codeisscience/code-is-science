@@ -10,10 +10,10 @@
 
 Code is Science works with the scientific coding community to champion Open Source code, so we can ensure that code is peer reviewed and [FAIR](https://www.nature.com/articles/sdata201618).
 
-For more details about our mission see [CodeIsScience.com](http://www.codeisscience.com). If you'd like to **contribute** (including Mozilla Global Sprint volunteers!), head to [CONTRIBUTING.md](CONTRIBUTING.md) or straight to our [issues list](https://github.com/yochannah/code-is-science/issues)! PS, have I mentioned how awesome you are for considering it? :heart-eyes:
+For more details about our mission see [CodeIsScience.com](http://www.codeisscience.com). If you'd like to **contribute** (including Mozilla Global Sprint volunteers!), head to [CONTRIBUTING.md](CONTRIBUTING.md) or straight to our [issues list](https://github.com/yochannah/code-is-science/issues)! PS, have I mentioned how awesome you are for considering it? :heart_eyes:
 
 ## Contact
-New: we have a [gitter room](https://gitter.im/codeisscience/Lobby#)!
+We have a [Gitter](https://gitter.im/codeisscience/Lobby#) and a [Slack](https://join.slack.com/t/codeisscience/shared_invite/zt-h2iz8pk7-K11oxiBKLVTk7YQ0LBu9sQ).
 
 <a href="https://opencollective.com/code-is-science/donate" target="_blank">
   <img src="https://opencollective.com/code-is-science/donate/button@2x.png?color=blue" width=300 />
