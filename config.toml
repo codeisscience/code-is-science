@@ -1,4 +1,4 @@
-baseURL = "http://www.codeisscience.com/"
+baseURL = "https://www.codeisscience.com/"
 languageCode = "en-gb"
 title = "Code Is Science"
 theme = "codeisscience"
