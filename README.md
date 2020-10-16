@@ -3,8 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Backers on Open Collective](https://opencollective.com/code-is-science/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/code-is-science/sponsors/badge.svg)](#sponsors) 
 
 # Code is science!
 
@@ -85,3 +83,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/code-is-science/sponsor/7/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/7/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/8/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/code-is-science/sponsor/9/website" target="_blank"><img src="https://opencollective.com/code-is-science/sponsor/9/avatar.svg"></a>
+
+[![Backers on Open Collective](https://opencollective.com/code-is-science/backers/badge.svg)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/code-is-science/sponsors/badge.svg)](#sponsors) 
