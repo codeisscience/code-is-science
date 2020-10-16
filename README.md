@@ -23,10 +23,10 @@ We have a [Gitter](https://gitter.im/codeisscience/Lobby#) and a [Slack](https:/
 This is primarily managed as a list of tickets in a [GitHub project board](https://github.com/yochannah/code-is-science/projects/1), but here's a quick rough list:
 
 ### Short term
-  - Design tasks - head to our [logos repo](https://github.com/codeisscience/logos/issues/) - we'd like logos to represent all scientific disciplines!
-
-### Medium term
-- begin technical development of journal database, including [db component](https://github.com/yochannah/code-is-science/issues/5), [api](https://github.com/yochannah/code-is-science/issues/7), [ui](https://github.com/yochannah/code-is-science/issues/9), and [search](https://github.com/yochannah/code-is-science/issues/8)
+ - Create tech infrastructure to record code-sharing compliance levels in journals. You can pick up tasks in these two places:
+  - The [front-end repo](https://github.com/codeisscience/codecompliance-frontend)
+  - The [back-end repo](https://github.com/codeisscience/codecompliance-backend)
+ - Define how code-sharing is measured
 
 ### Tasks for anywhen
 - add to the "db" of journals that do (or don't) require an open source licence. Currently a google sheet: https://docs.google.com/spreadsheets/d/1oY5ak7VJa-qwJJeWA3829S-1akZaYtHuWPYpChBdW2o/edit#gid=1946180293
